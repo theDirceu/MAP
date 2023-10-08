@@ -1,6 +1,6 @@
 package br.uepb.edu.domain.adapter;
 
-public class OldBookImpl implements OldBook {
+public class OldBookImpl implements Oldbook {
     private String title;
     private String author;
     private int pages;
