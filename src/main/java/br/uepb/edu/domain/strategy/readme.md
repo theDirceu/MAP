@@ -1,3 +1,3 @@
 Neste exemplo, EstrategiaEmprestimo é a interface que define o contrato para todas as estratégias de empréstimo. As classes concretas EstrategiaEmprestimoComum, EstrategiaEmprestimoPrioritario e EstrategiaEmprestimoLongoPrazo implementam essa interface com algoritmos específicos.
 
-A classe Biblioteca atua como o contexto que utiliza uma das estratégias para realizar o empréstimo. O cliente (no exemplo de uso) pode escolher dinamicamente qual estratégia utilizar, tornando o sistema flexível e extensível.
+A classe Biblioteca atua como o contexto que utiliza uma das estratégias para realizar o empréstimo.Facilitando a escolha do tipo de empréstimo que será realizada pelo usuário.
